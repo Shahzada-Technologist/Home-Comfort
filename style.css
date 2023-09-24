@@ -4,8 +4,24 @@
     box-sizing: border-box;
 
 }
-.logo{
-    background-color: gray;
-    color: blue;
-    
+.display {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    align-items: center;
+    padding: 10px 0;
+}
+.list ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #058B8C;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
