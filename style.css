@@ -7,7 +7,6 @@
 .display {
     display: flex;
     justify-content: space-around;
-    /* background-color: blue; */
     align-items: center;
     padding: 10px 0;
 }
@@ -24,4 +23,13 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.btn{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
